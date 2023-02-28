@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:calendar="clr-namespace:Syncfusion.Maui.Calendar;assembly=Syncfusion.Maui.Calendar"
+             xmlns:local="clr-namespace:SelectedDateDetails"
+             x:Class="SelectedDateDetails.MainPage">
+
+    <ContentPage.Behaviors>
+        <local:CalendarBehavior />
+    </ContentPage.Behaviors>
+    <ContentPage.Content>
+        <Grid RowDefinitions="0.1*, 0.9*">
+            <Button x:Name="selectionModeButton"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" />
+            <calendar:SfCalendar Grid.Row="1"
+                                 x:Name="calendar" />
+        </Grid>
+    </ContentPage.Content>
+
+</ContentPage>
