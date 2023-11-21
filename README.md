@@ -1,12 +1,12 @@
 # How to get the selected dates using the selection changed callback in the .NET MAUI Calendar (SfCalendar)
-This repository contains a sample to get the selected dates using the selection changed callback in the [Syncfusion .NET MAUI Calendar](https://help.syncfusion.com/maui/calendar/getting-started) control.
+This repository contains a sample to get the selected dates using the selection changed callback in the [SfCalendar](https://help.syncfusion.com/maui/calendar/getting-started) control.
 
 Please refer the KB through this link.
 
 ## Syncfusion controls
 
 This project used the following Syncfusion control(s):
-* [SfCalendar](https://www.syncfusion.com/maui-controls/maui-calendar)
+* [Syncfusion .NET MAUI Calendar](https://www.syncfusion.com/maui-controls/maui-calendar)
 
 ## Supported platforms
 
